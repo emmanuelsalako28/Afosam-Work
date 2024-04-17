@@ -154,7 +154,10 @@ ul {
     background-image: url(/pictures/background.png);
 
 }
-
+.special-occassion{
+    /* width: 70%; */
+   
+}
 .special-occassion img {
     /* width: 70%; */
     margin-left: 10%;
@@ -171,8 +174,15 @@ ul {
 }
 
 .special-right h2 {
-    margin-top: 5rem;
+    margin-top: 1rem;
+    letter-spacing: 2px;
 }
+.special-right p {
+    margin-top: 1rem;
+    margin-bottom: 15px;
+    /* letter-spacing: 2px; */
+}
+
 
 .special-right button {
     border-radius: 100px;
@@ -396,8 +406,9 @@ footer {
     }
 
     footer {
-        background-color: var(--shade-black);
-        margin-top: 5rem;
+        background-color: var(--cyan);
+        margin-top: 2rem;
+        border-radius: 20px;
         display: flex;
         flex-direction: column;
         color: white;
@@ -408,7 +419,23 @@ footer {
     .foot-logo img {
         width: 50%;
         color: white;
-        padding: 5rem;
+        display: flex;
+      padding: 0px;
+      margin-left: 20%;
+       
     }
+    .foot-useful-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .foot-useful-link p{
+        margin-bottom: 10%;
+    }
+    .foot-useful-link li{
+        margin-bottom: 10%;
+        margin-left: 10px;
 
+    }
+   
 }
