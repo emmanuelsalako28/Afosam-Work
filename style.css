@@ -112,7 +112,7 @@ ul {
     background-color: var(--cyan);
     border: 0px solid var(--red);
     border-radius: 100%;
-    height: 80%;
+    /* height: 80%; */
 }
 
 #hero-left-btn {
