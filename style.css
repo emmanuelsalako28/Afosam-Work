@@ -438,6 +438,7 @@ footer {
     .about-hero {
         background-image: url(/pictures/about-us-hero.jpg);
         background-size: cover;
+        border-radius: 3%;
     }
 
     .about-hero h1 {
