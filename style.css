@@ -3,9 +3,9 @@
     --red: #d81f47;
     --shade-black: #0E2333;
     --white: #FFFFFF;
-    --green:#98d1ca;
-    --cyan:#6AC1D5;
-    --butter:#EDF1CE;
+    --green: #98d1ca;
+    --cyan: #6AC1D5;
+    --butter: #EDF1CE;
 
 }
 
@@ -70,7 +70,6 @@ ul {
     color: black;
 }
 
-.logo {}
 
 .logo img {
     width: 40%;
@@ -154,10 +153,7 @@ ul {
     background-image: url(/pictures/background.png);
 
 }
-.special-occassion{
-    /* width: 70%; */
-   
-}
+
 .special-occassion img {
     /* width: 70%; */
     margin-left: 10%;
@@ -177,6 +173,7 @@ ul {
     margin-top: 1rem;
     letter-spacing: 2px;
 }
+
 .special-right p {
     margin-top: 1rem;
     margin-bottom: 15px;
@@ -237,7 +234,7 @@ footer {
         background-color: var(--cyan);
     }
 
-    .top-header-left {}
+
 
     .main-header {
 
@@ -255,11 +252,6 @@ footer {
         text-align: center;
         width: 100%;
     }
-
-    .top-header-left ul {
-     
-    }
-
 
     .top-header-right {
         display: none;
@@ -420,22 +412,43 @@ footer {
         width: 50%;
         color: white;
         display: flex;
-      padding: 0px;
-      margin-left: 20%;
-       
+        padding: 0px;
+        margin-left: 20%;
+
     }
-    .foot-useful-link{
+
+    .foot-useful-link {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .foot-useful-link p{
+
+    .foot-useful-link p {
         margin-bottom: 10%;
     }
-    .foot-useful-link li{
+
+    .foot-useful-link li {
         margin-bottom: 10%;
         margin-left: 10px;
 
     }
-   
+
+    /* About Us Page */
+
+    .about-hero {
+        background-image: url(/pictures/about-us-hero.jpg);
+        background-size: cover;
+    }
+
+    .about-hero h1 {
+        padding: 20px 30%;
+        color: var(--white);
+    }
+
+    .about-hero p {
+        padding: 10%;
+        color: var(--white);
+    }
+}
+
 }
